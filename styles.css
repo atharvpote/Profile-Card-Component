@@ -16,6 +16,8 @@ body {
     place-content: center;
     grid-template-rows: minmax(90vh, 1fr) auto;
     background: hsl(185, 75%, 39%);
+    max-width: 100vw;
+    overflow: hidden;
 }
 
 img {
